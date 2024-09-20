@@ -1,31 +1,34 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Л┤╪М∙▒К╙╟ М ▄Л⌡░Й╢─К╕╛ М■└К║°Й╥╦К·╗</title>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+	body{width: 1200px;margin: 0 auto;}
+	header{width: 1200px;height: 100px;background-color: blue;color: #fff;text-align: center;line-height: 100px;}
+	nav{width: 1200px;height: 50px;background-color: lightblue;line-height: 50px;}
+	footer{width: 1200px;height: 50px;background-color: blue;color: #fff;text-align: center;line-height: 50px;}
+	a{text-decoration: none;color: white;}
+</style>
 </head>
-<body style="margin: 0 auto;padding: 0">
-	<header style="width: 100%;height: 80px;background-color: blue;text-align: center;font-size: 30px;line-height: 80px;color: #fff">Л┤╪М∙▒К╙╟ М ▄Л⌡░Й╢─К╕╛ ver 1.0</header>
-	<nav style="width: 100%;height: 50px;background-color: lightblue;line-height: 50px;">
-	<a href="">М ▄Л⌡░К⌠╠К║²</a>&nbsp;&nbsp;&nbsp;
-	<a href="">М ▄Л⌡░К╙╘К║²Л║╟М ▄/Л┬≤Л═∙</a>
-	<a href="">М ▄Л⌡░К╖╓Л╤°Л║╟М ▄</a>
-	<a href="">М≥┬Л°╪К║°</a>
- 	</nav>
+<body>
+	<header><h1>╪Нгн╦Т х╦©Ь╟Э╦╝ га╥н╠в╥╔ ver1.0</h1></header>
+	<nav>
+		<a href="#">х╦©Ь╣Н╥о</a>
+		<a href="#">х╦©Ь╦Я╥оа╤х╦/╪Жа╓</a>
+		<a href="#">х╦©Ь╦ецБа╤х╦</a>
+		<a href="#">х╗ю╦╥н</a>
+	</nav>
 	<section>
-	<h2 style="text-align: center;">Л┤╪М∙▒К╙╟ М ▄Л⌡░Й╢─К╕╛ М■└К║°Й╥╦К·╗</h2>
-	<p style="padding-left: 10px;">
-	Л┤╪М∙▒К╙╟ М ▄Л⌡░Л═∙КЁ╢Л≥─ М ▄Л⌡░К╖╓Л╤° Л═∙КЁ╢ К█╟Л²╢М└╟К╡═Л²╢Л┼╓К╔╪ Й╣╛Л╤∙М∙≤ЙЁ═ М ▄Л⌡░Й╢─К╕╛ М■└К║°Й╥╦К·╗Л²└ Л·▒Л└╠М∙≤К┼■ М■└К║°Й╥╦К·╗Л²╢К▀╓.<br>
-	М■└К║°Й╥╦К·╗ Л·▒Л└╠ Л┬°Л└°<br>
-	1. М ▄Л⌡░Л═∙КЁ╢ М┘▄Л²╢К╦■Л²└ Л·▒Л└╠М∙°К▀╓. <br>
-	2. К╖╓Л╤°Л═∙КЁ╢ М┘▄Л²╢К╦■Л²└ Л┐²Л└╠М∙°К▀╓. <br>
-	3. М ▄Л⌡░Л═∙КЁ╢, К╖╓Л╤°Л═∙КЁ╢М┘▄Л²╢К╦■Л≈░ Л═°Л▀°К░° К╛╦Л═°Л╖─Л²≤ Л╟╦Л║╟ К█╟Л²╢М└╟К╔╪ Л╤■Й╟─ Л┐²Л└╠М∙°К▀╓. <br>
-	4. М ▄Л⌡░Л═∙КЁ╢ Л·┘К═╔ М≥■К╘╢М■└К║°Й╥╦К·╗Л²└ Л·▒Л└╠М∙°К▀╓. <br>
-	5. М ▄Л⌡░Л═∙КЁ╢ Л║╟М ▄ М■└К║°Й╥╦К·╗Л²└ Л·▒Л└╠М∙°К▀╓. <br>
-	6. М ▄Л⌡░К╖╓Л╤°Л═∙КЁ╢ Л║╟М ▄ М■└К║°Й╥╦К·╗Л²└ Л·▒Л└╠М∙°К▀╓. <br>
-	</p>
+		<h2>╪Нгн╦Т х╦©Ь╟Э╦╝ га╥н╠в╥╔</h2>
+		<p>╪Нгн╦Т х╦©Ь╟Э╦╝ га╥н╠в╥╔юг ╣╔юлем╨ёюл╫╨╦╕ ╠╦цЮго╟М ╟Э╦╝го╢б га╥н╠в╥╔ю╩ юш╪╨гя╢ы. <br>
+		га╥н╠в╥╔ юш╪╨ ╪Ь╪╜</p>
+		<p>1. ╣╔юлем╨ёюл╫╨ евюл╨Мю╩ ╩Щ╪╨гя╢ы.</p>
+		<p>2. ╣╔юлем╨ёюл╫╨ евюл╨М©║ ╣╔юлем╦╕ ╩Щ╪╨гя╢ы.</p>
+		<p>3. га╥н╠в╥╔ю╩ юш╪╨гя╢ы.</p>
 	</section>
+	<footer><h3>HRDKOREA Copyright(C)2023</h3></footer>
 </body>
 </html>
